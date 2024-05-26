@@ -1883,3 +1883,36 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+/* Style for the skills container */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three skills per row */
+  grid-gap: 20px;
+}
+
+/* Style for the skills cards */
+.skills-card {
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #FFAE42; /* Orange-Yellow-Crayola */
+}
+
+/* Style for the skills card titles */
+.skills-card h5 {
+  margin: 0;
+  font-size: 18px;
+  color: white; /* White text */
+  text-align: center;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust columns for smaller screens */
+  }
+}
+
+
+
+
