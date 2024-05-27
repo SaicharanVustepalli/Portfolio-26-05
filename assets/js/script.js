@@ -157,3 +157,9 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+function downloadResume() {
+        // Assuming your PDF file URL
+        var pdfUrl = './assets/saicharanresume.pdf';
+        window.open(pdfUrl, '_blank');
+    }
