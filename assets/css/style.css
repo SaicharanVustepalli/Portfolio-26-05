@@ -1913,6 +1913,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 }
 
-
+.download{
+	margin-top: 20px;
+}
 
 
