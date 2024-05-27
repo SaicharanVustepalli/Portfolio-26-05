@@ -1909,7 +1909,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 /* Media query for smaller screens */
 @media only screen and (max-width: 768px) {
   .skills-container {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust columns for smaller screens */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 2fr)); /* Adjust columns for smaller screens */
   }
 }
 
