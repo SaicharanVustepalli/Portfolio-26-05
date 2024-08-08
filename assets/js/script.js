@@ -160,6 +160,6 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 function downloadResume() {
         // Assuming your PDF file URL
-        var pdfUrl = './assets/saicharanresume.pdf';
+        var pdfUrl = './assets/Sai Charan Resume.pdf';
         window.open(pdfUrl, '_blank');
     }
